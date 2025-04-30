@@ -6,3 +6,6 @@ VS Code with extensions - Auto rename tag(https://marketplace.visualstudio.com/i
 ES7+ React/Redux/React-Native snippets(https://marketplace.visualstudio.com/items/?itemName=dsznajder.es7-react-js-snippets)
 
 Note: Mark checkbox Emmet:Show Abbreviation suggestions as checked from Settings
+
+#References
+Youtube playlist: https://www.youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt
