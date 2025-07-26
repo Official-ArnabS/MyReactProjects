@@ -4,6 +4,7 @@ Repository to save ReactJS projects for learning reference
 # Dev tools
 1) Instal node js from https://nodejs.org/en/download
 2) Install VS Code with extensions - 
+
     a)Auto rename tag(https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-rename-tag)
    
     b)Live Server(https://marketplace.visualstudio.com/items/?itemName=ritwickdey.LiveServer)
