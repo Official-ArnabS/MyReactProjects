@@ -52,6 +52,13 @@ export default function TextForm(props) {
         setText('');
     }
 
+    //Function to remove extra spaces
+    const handleExtraSpaces = (event)=>{
+        //console.log("Clear click");
+        let newText = text.split(/[ ]+/);
+        setText(newText.join(" "))
+    }
+
     //Base definition of TextForm function
     const [text, setText] = useState(''); 
     return (
@@ -65,6 +72,7 @@ export default function TextForm(props) {
         <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to Lowercase</button>
         <button className="btn btn-primary mx-2" onClick={handleClearClick}>Clear</button>
         <button className="btn btn-primary mx-2" onClick={handleGetMaxCharacterClick}>Get character with maximum occurence</button>
+        <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove extra spaces</button>
     </div>
     <div className="container my-3">
         <h2>Your text summary here</h2>
