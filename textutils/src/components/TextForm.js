@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 
 export default function TextForm(props) {
 
@@ -71,21 +71,22 @@ export default function TextForm(props) {
                 <div className="mb-3">
                     <h1>{props.heading}</h1>
                     <textarea className="form-control" value={text} onChange={handleOnChange}
-                        style={{ backgroundColor: props.mode === 'dark' ? '#042743' : 'white', color: props.mode === 'dark' ? 'white' : '#042743' }}
+                        style={{ backgroundColor: props.mode === 'dark' ? '#13466e' : 'white', color: props.mode === 'dark' ? 'white' : '#042743' }}
                         id="MyBox" rows="8"></textarea>
                 </div>
-                <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to Uppercase</button>
-                <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to Lowercase</button>
-                <button className="btn btn-primary mx-2" onClick={handleClearClick}>Clear</button>
-                <button className="btn btn-primary mx-2" onClick={handleGetMaxCharacterClick}>Get character with maximum occurence</button>
-                <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove extra spaces</button>
+                <button className="btn btn-primary mx-1 my-1" disabled={text.length===0} onClick={handleUpClick}>Convert to Uppercase</button>
+                <button className="btn btn-primary mx-1 my-1" disabled={text.length===0} onClick={handleLoClick}>Convert to Lowercase</button>
+                <button className="btn btn-primary mx-1 my-1" disabled={text.length===0} onClick={handleLoClick}>Convert to Lowercase</button>
+                <button className="btn btn-primary mx-1 my-1" disabled={text.length===0} onClick={handleClearClick}>Clear</button>
+                <button className="btn btn-primary mx-1 my-1" disabled={text.length===0} onClick={handleGetMaxCharacterClick}>Get character with maximum occurence</button>
+                <button className="btn btn-primary mx-1 my-1" disabled={text.length===0} onClick={handleExtraSpaces}>Remove extra spaces</button>
             </div>
             <div className="container my-3" style={{ backgroundColor: props.mode === 'dark' ? '#042743' : 'white', color: props.mode === 'dark' ? 'white' : '#042743' }}>
                 <h2>Your text summary here</h2>
                 <p>{text.length>0?text.split(" ").length:"No"} words and {text.length} characters</p>
                 <p>{text.length > 0 ? text.split(" ").length * 0.08 : 0} minutes read</p>
                 <h2>Preview</h2>
-                <p>{text.length > 0 ? text : "Enter some text in the box above to get preview"}</p>
+                <p>{text.length > 0 ? text : "No preview available!"}</p>
             </div>
         </>
 
