@@ -267,9 +267,9 @@ export class News extends Component {
   ]
 
 
-  constructor(){
+  constructor() {
     super();
-    this.state={
+    this.state = {
       articles: this.articles,
       loading: false
     }
@@ -279,21 +279,19 @@ export class News extends Component {
     return (
       <div className="container my-3">
         <h2>NewsMomo - Top Headlines</h2>
+
         <div className="row">
-          <div className="col md-4">
-            <NewsItem title="My title" description="My description" 
-            imageUrl="https://www.thehindu.com/news/international/dvshb0/article35474284.ece/ALTERNATES/LANDSCAPE_615/thjc-DalaiLama"
-            newsUrl="TODO"/>
-          </div>
-          <div className="col md-4">
-             <NewsItem title="My title" description="My description"/>
-          </div>
-          <div className="col md-4">
-             <NewsItem title="My title" description="My description"/>
-          </div>
+          {this.state.articles.map((element) => {
+            return <div className="col md-4">
+              <NewsItem key={element.url} title={element.title.slice(0,45)} description={element.description.slice(0, 88)}
+                imageUrl={element.urlToImage}
+                newsUrl={element.url} />
+            </div>
+          })}
+
         </div>
       </div>
-      
+
     )
   }
 }
