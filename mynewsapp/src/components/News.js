@@ -3,289 +3,36 @@ import NewsItem from './NewsItem'
 
 export class News extends Component {
 
-  articles = [
-    {
-      "source": {
-        "id": null,
-        "name": "Minneapolis Star Tribune"
-      },
-      "author": "Star Tribune staff, Star Tribune staff",
-      "title": "Live updates and analysis from the Vikings' home opener vs. the Falcons - Star Tribune",
-      "description": "Vikings quarterback and new dad J.J. McCarthy caps a memorable week with another prime-time game. Check back here for live updates and analysis from U.S. Bank Stadium.",
-      "url": "https://www.startribune.com/minnesota-vikings-atlanta-falcons-nfl-week-2-sunday-night-football-live-updates/601471137",
-      "urlToImage": "https://arc.stimg.co/startribunemedia/SVMBZFGMWBEVZBH4OL2AHYIOME.jpg?&w=1200&ar=1.91:1&fit=crop",
-      "publishedAt": "2025-09-15T02:15:00Z",
-      "content": "If the Vikings first quarter against the Falcons tonight felt similar to their struggles against the Bears on Monday night, the parallels continued in the second quarter.\r\nThere was another J.J. McCa… [+1601 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hollywood Reporter"
-      },
-      "author": "Kimberly Nordyke",
-      "title": "Emmy Awards: Winners List (Updating Live) - The Hollywood Reporter",
-      "description": "'The Studio,' 'Adolescence,' 'Hacks,' 'Severance,' 'Last Week Tonight With John Oliver' and 'The Late Show With Stephen Colbert' are among the night's big winners so far.",
-      "url": "http://www.hollywoodreporter.com/lists/emmy-winners-2025-list/",
-      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2022/06/GettyImages-76887712-H-2022.jpg?w=1296&h=730&crop=1",
-      "publishedAt": "2025-09-15T01:15:00Z",
-      "content": "The 2025 Emmy Awards are being handed out Sunday night.\r\nAdolescence scooped up six awards, including best limited or anthology series. Owen Cooper became the youngest-ever male winner in any acting … [+8455 chars]"
-    },
-    {
-      "source": {
-        "id": "nbc-news",
-        "name": "NBC News"
-      },
-      "author": "Ryan J. Reilly, Michael Kosnar, David Rohde",
-      "title": "Kash Patel criticized for his actions and posts during Charlie Kirk shooting investigation - NBC News",
-      "description": "FBI Director Kash Patel’s activities during the investigation of Charlie Kirk’s killing raise questions about his decision-making, current and former officials said.",
-      "url": "https://www.nbcnews.com/politics/justice-department/kash-patel-criticized-actions-posts-charlie-kirk-shooting-investigatio-rcna231043",
-      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-09/250914-patel-ch-1929-dbebb3.jpg",
-      "publishedAt": "2025-09-15T01:07:00Z",
-      "content": "FBI Director Kash Patels activities during the investigation of conservative activist Charlie Kirks assassination raise questions about his decision-making during a crisis, four former FBI officials … [+8798 chars]"
-    },
-    {
-      "source": {
-        "id": "associated-press",
-        "name": "Associated Press"
-      },
-      "author": "Itzel Luna",
-      "title": "Emmys host Nate Bargatze jokes about the television industry, devises gag to keep speeches short - AP News",
-      "description": "Stand-up comedian Nate Bargatze kicked off the 77th Emmy Awards Sunday with a comedy sketch that poked fun at the television industry, noting it's “a world where the finest artists craft stories of staggering beauty that millions of people will watch on their…",
-      "url": "https://apnews.com/article/nate-bargatze-2025-emmy-awards-c1e27164c0723c4b5c2988d4c586d99d",
-      "urlToImage": "https://dims.apnews.com/dims4/default/0133294/2147483647/strip/true/crop/5627x3165+0+293/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F52%2F80%2F58dc499cd9ebe05da82e829cc877%2F14a9cb418da9409195e3033d0d0b1fc3",
-      "publishedAt": "2025-09-15T01:07:00Z",
-      "content": "LOS ANGELES (AP) Nate Bargatze, the host of this years Emmy Awards, kicked off the ceremony Sunday with a string of jokes poking fun at the television industry.\r\nThe show opened with a sketch where S… [+3407 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "fox13now.com"
-      },
-      "author": "Jeff Tavss",
-      "title": "FBI arrests 2 after incendiary device left under FOX 13 News vehicle - FOX 13 News Utah",
-      "description": "Two men have been arrested after allegedly leaving an incendiary device underneath a FOX 13 News vehicle, and then forcing an evacuation of a Magna neighborhood when a warrant on their home.",
-      "url": "https://www.fox13now.com/news/crime/fbi-arrests-2-after-incendiary-device-left-under-fox-13-news-vehicle",
-      "urlToImage": "https://ewscripps.brightspotcdn.com/dims4/default/e80625c/2147483647/strip/true/crop/1920x1008+0+36/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcf.cdn.uplynk.com%2Fause1%2Fslices%2F75f%2Fef205c0e5ea14d77944cbd6904335118%2F75fdfc8ae94b4bcb88c7518d051534da%2Fposter_06f9a1a34fed4661a86834e898f3e350.jpeg",
-      "publishedAt": "2025-09-14T23:54:58Z",
-      "content": "MAGNA, Utah Two men have been arrested after allegedly leaving an incendiary device underneath a FOX 13 News vehicle and then forcing an evacuation of a Magna neighborhood when the FBI served an over… [+2003 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Variety"
-      },
-      "author": "Adam B. Vary",
-      "title": "Hannah Einbinder Says ‘Hacks’ Will End With Season 5: ‘It’s Nice Not to Overstay Your Welcome’ - Variety",
-      "description": "\"Hacks\" star Hannah Einbinder confirmed on the Emmys red carpet that the HBO Max comedy series will conclude with its fifth season.",
-      "url": "https://variety.com/2025/tv/news/hacks-ending-season-5-hannah-einbinder-emmys-1236518434/",
-      "urlToImage": "https://variety.com/wp-content/uploads/2025/09/GettyImages-2235447443.jpg?crop=48px%2C74px%2C831px%2C467px&resize=1000%2C563",
-      "publishedAt": "2025-09-14T23:39:00Z",
-      "content": "“Hacks” star Hannah Einbinder confirmed on the Emmys red carpet on Sunday that the HBO Max comedy series will conclude with its upcoming fifth season.\r\n“It will feel different,” Einbinder told E! hos… [+1288 chars]"
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "Brian Stelter",
-      "title": "Fox News’ Brian Kilmeade says comment about killing mentally ill homeless people an ‘extremely callous remark’ - CNN",
-      "description": "After shocking many by saying mentally ill homeless people should be put to death, Fox News morning host Brian Kilmeade apologized on Sunday for what he called an “extremely callous remark.”",
-      "url": "https://www.cnn.com/2025/09/14/business/brian-kilmeade-fox-news-apology-homeless",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/ap25257593360414.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2025-09-14T23:26:27Z",
-      "content": "After shocking many by saying mentally ill homeless people should be put to death, Fox News morning host Brian Kilmeade apologized on Sunday for what he called an extremely callous remark.\r\nKilmeades… [+2990 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "detroitlions.com"
-      },
-      "author": null,
-      "title": "NOTEBOOK: Goff, Lions' offense bounce back with 50+ points vs. Bears - Detroit Lions",
-      "description": "Tim Twentyman covers all the news from the Detroit Lions' 52-21 victory over the Chicago Bears.",
-      "url": "https://www.detroitlions.com/news/notebook-goff-lions-offense-bounce-back-with-50-points-vs-bears",
-      "urlToImage": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/lions/ryg1elwgods6q5epeasx",
-      "publishedAt": "2025-09-14T23:24:39Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Jason Owens",
-      "title": "Broncos lose stunner to Colts after giving Spencer Shrader a second look at a game winning FG with no time on the clock - Yahoo Sports",
-      "description": "The Denver Broncos thought they had this game won.",
-      "url": "https://sports.yahoo.com/nfl/breaking-news/article/broncos-lose-stunner-to-colts-after-giving-spencer-shrader-a-second-look-at-a-game-winning-fg-with-no-time-on-the-clock-231510852.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/AxWT0SnzPCWc1i8ExIivSQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2025-09/68470df0-91c4-11f0-97ff-3c545af8ca6f",
-      "publishedAt": "2025-09-14T23:15:10Z",
-      "content": "The Denver Broncos went from victory celebration to heartbreak Sunday in a matter of seconds.\r\nTheir defense came up with the stop they needed and forced Indianapolis Colts kicker Spencer Shrader int… [+4217 chars]"
-    },
-    {
-      "source": {
-        "id": "nbc-news",
-        "name": "NBC News"
-      },
-      "author": "The Associated Press",
-      "title": "Former Illinois Gov. Jim Edgar, a popular two-term Republican, dies at 79 - NBC News",
-      "description": "CHICAGO — Former Illinois Gov.",
-      "url": "https://www.nbcnews.com/politics/politics-news/former-illinois-gov-jim-edgar-popular-two-term-republican-dies-79-rcna231242",
-      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-09/250914-Jim-Edgar-ch-1905-25221a.jpg",
-      "publishedAt": "2025-09-14T23:10:33Z",
-      "content": "CHICAGO Former Illinois Gov. Jim Edgar, a popular two-term Republican credited with guiding the state into a period of greater financial stability in the 1990s, died Sunday, according to his family. … [+2857 chars]"
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "Gloria Pazmino",
-      "title": "New York Gov. Kathy Hochul endorses Zohran Mamdani in NYC mayoral race - CNN",
-      "description": "New York Gov. Kathy Hochul on Sunday endorsed New York City Democratic mayoral nominee Zohran Mamdani, calling him “a leader who is focused on making New York City affordable” despite their disagreements.",
-      "url": "https://www.cnn.com/2025/09/14/politics/kathy-hochul-zohran-mamdani",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/20250914-hochul-mamdani.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2025-09-14T23:07:34Z",
-      "content": "New York Gov. Kathy Hochul on Sunday endorsed New York City Democratic mayoral nominee Zohran Mamdani, calling him a leader who is focused on making New York City affordable despite their disagreemen… [+3494 chars]"
-    },
-    {
-      "source": {
-        "id": "axios",
-        "name": "Axios"
-      },
-      "author": "Rebecca Falconer",
-      "title": "Romania becomes 2nd NATO nation to report Russian drone in its airspace - Axios",
-      "description": "\"The Russian military knows exactly where their drones are headed ... This cannot be a coincidence, a mistake,\" Zelensky said.",
-      "url": "https://www.axios.com/2025/09/14/russia-romania-drone-ukraine-nato-eu",
-      "urlToImage": "https://images.axios.com/4_Cq6cVY3wuoR9meRYcRTOhcEe0=/0x0:5000x2813/1366x768/2025/09/14/1757886139340.jpeg",
-      "publishedAt": "2025-09-14T22:41:15Z",
-      "content": "Screenshot: Kaja Kallas, EU foreign policy chief/X\r\n\u003Cul\u003E\u003Cli\u003ENATO strengthened its air defense and launched operation \"Eastern Sentry\" on Friday to bolster military activity along Europe's eastern fla… [+2729 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": "Jack Skelton",
-      "title": "Ricky Hatton: Wayne Rooney pays tribute to friend and former world champion boxer - BBC",
-      "description": "Wayne Rooney says the death of his friend and former world champion boxer Ricky Hatton is \"devastating\".",
-      "url": "https://www.bbc.com/sport/boxing/articles/cqlz674elldo",
-      "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/dcb8/live/885eafe0-91aa-11f0-9cf6-cbf3e73ce2b9.jpg",
-      "publishedAt": "2025-09-14T21:04:58Z",
-      "content": "Rooney was 21 when he helped carry Hatton's championship belts into the ring alongside legendary Mexican boxer Marco Antonio Barrera before the Castillo fight.\r\n\"It was one of the most nervous I have… [+607 chars]"
-    },
-    {
-      "source": {
-        "id": "nbc-news",
-        "name": "NBC News"
-      },
-      "author": "The Associated Press",
-      "title": "Ebola vaccination begins in southern Congo - NBC News",
-      "description": "Vaccination for those exposed to the Ebola virus and front-line health workers has begun in southern Kasai province, the World Health Organization said Sunday.",
-      "url": "https://www.nbcnews.com/world/africa/ebola-vaccination-begins-southern-congo-rcna231173",
-      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-09/250914-ebola-vl-322p-506e9e.jpg",
-      "publishedAt": "2025-09-14T19:45:13Z",
-      "content": "LAGOS, Nigeria Vaccination for those exposed to the Ebola virus and front-line health workers has begun in southern Kasai province, the World Health Organization said Sunday.\r\nAn outbreak of the high… [+1017 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PBS"
-      },
-      "author": null,
-      "title": "Ukrainian drone strike sparks fire at one of Russia’s top oil refineries - PBS",
-      "description": "The overnight strike on the Kirishi refinery, in Russia's northwestern Leningrad region, follows weeks of Ukrainian attacks on Russian oil infrastructure that Kyiv says fuels Moscow’s war effort.",
-      "url": "https://www.pbs.org/newshour/world/ukrainian-drone-strike-sparks-fire-at-one-of-russias-top-oil-refineries",
-      "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2025/09/2025-07-17T050052Z_655252093_RC228EA581OD_RTRMADP_3_UKRAINE-CRISIS-DEFENCES-1024x692.jpg",
-      "publishedAt": "2025-09-14T19:37:59Z",
-      "content": "Ukrainian drones have struck one of Russias largest oil refineries, sparking a fire, Russian officials and Ukraines military said Sunday.\r\nThe overnight strike on the Kirishi refinery, in Russia’s no… [+4699 chars]"
-    },
-    {
-      "source": {
-        "id": "fortune",
-        "name": "Fortune"
-      },
-      "author": "Jason Ma",
-      "title": "Housing market: the 'most critical' variable for predicting recessions is at lowest since pandemic - Fortune",
-      "description": "Moody’s own leading economic indicator that uses machine learning has estimated the odds of a recession in the next 12 months are now at 48%.",
-      "url": "https://fortune.com/2025/09/14/housing-market-recession-warning-building-permits-residential-investment-zandi/",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/09/GettyImages-2229115477-e1757871936432.jpg?resize=1200,600",
-      "publishedAt": "2025-09-14T19:09:00Z",
-      "content": "The housing market is long been seen as an early warning sign for recessions, and one data point in particular has caught the attention of Moodys Analytics chief economist Mark Zandi.In social media … [+2773 chars]"
-    },
-    {
-      "source": {
-        "id": "bloomberg",
-        "name": "Bloomberg"
-      },
-      "author": "Michael MacKenzie, Elena Popina, Liz Capo McCormick",
-      "title": "Markets Gear Up for Series of Fed Cuts With Bullish Bets at Risk - Bloomberg.com",
-      "description": "A key question for investors this week is whether Federal Reserve officials push back against market bets on a series of interest-rate cuts extending into next year.",
-      "url": "https://www.bloomberg.com/news/articles/2025-09-14/markets-gear-up-for-series-of-fed-cuts-with-bullish-bets-at-risk",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUd2qBRDCJ40/v1/1200x800.jpg",
-      "publishedAt": "2025-09-14T19:00:00Z",
-      "content": "A key question for investors this week is whether Federal Reserve officials push back against market bets on a series of interest-rate cuts extending into next year.\r\nA quarter-point reduction is see… [+254 chars]"
-    },
-    {
-      "source": {
-        "id": "politico",
-        "name": "Politico"
-      },
-      "author": "Lauren Gardner",
-      "title": "Fear over RFK Jr. vaccine panel’s looming decisions on childhood shots - Politico",
-      "description": "The panel will discuss the Covid-19, hepatitis B and the measles, mumps, rubella and varicella vaccines, as well as the RSV shot.",
-      "url": "https://www.politico.com/news/2025/09/14/rfk-jr-s-vaccine-panel-to-consider-major-changes-to-childhood-shots-00563165",
-      "urlToImage": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F4c%2F24%2F1d43b9504ea6a5c22131199e8cd3%2Fu-s-congress-66894.jpg",
-      "publishedAt": "2025-09-14T18:00:00Z",
-      "content": "Monarez is now expected to testify under oath about her firing before the Senate Health, Education, Labor and Pensions Committee on the eve of the advisory committee meeting, which is scheduled for S… [+12697 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "9to5Mac"
-      },
-      "author": "Michael Burkhardt",
-      "title": "iPhone 17 vs iPhone 16 Pro: Similar displays, distinctly different packages - 9to5Mac",
-      "description": "Apple truly hit it out of the park with the base iPhone 17, making it one of the companies best...",
-      "url": "https://9to5mac.com/2025/09/14/apple-iphone-17-vs-iphone-16-pro-comparison-buyers-guide/",
-      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/iphone-17-vs-16-pro.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-      "publishedAt": "2025-09-14T17:10:00Z",
-      "content": "Apple truly hit it out of the park with the base iPhone 17, making it one of the companies best value iPhone models in quite some time. With how many incredible upgrades there are on iPhone 17, it ac… [+4317 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Andrew Ackerman",
-      "title": "Political turbulence engulfs the Fed as Trump pushes to assert control - The Washington Post",
-      "description": "President Donald Trump’s aggressive steps to reshape the Fed could play out dramatically at this week’s regularly-scheduled Fed policy meeting.",
-      "url": "https://www.washingtonpost.com/business/2025/09/14/federal-reserve-interest-rates-trump/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E5UUFYOCAW5JCZDWIR645XXTYE.JPG&w=1440",
-      "publishedAt": "2025-09-14T17:00:18Z",
-      "content": "President Donald Trumps aggressive steps to reshape the Federal Reserve could play out dramatically at this weeks Fed policy meeting, marking an extraordinary moment of political tension at an instit… [+66 chars]"
-    }
-  ]
-
-
+  articles = []
   constructor() {
     super();
     this.state = {
-      articles: this.articles,
+      articles: [],
       loading: false
     }
+  }
+
+  async componentDidMount(){
+    let url="https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=e0cab9438cd444c183710d93f050bffd";
+    let data= await fetch(url);
+    let parsedData = await data.json();
+    console.log(parsedData);
+    this.setState({articles:parsedData.articles});
+
   }
 
   render() {
     return (
       <div className="container my-3">
-        <h2>NewsMomo - Top Headlines</h2>
+        <h1>NewsMomo - Top Headlines</h1>
 
         <div className="row">
           {this.state.articles.map((element) => {
-            return <div className="col md-4">
-              <NewsItem key={element.url} title={element.title.slice(0,45)} description={element.description.slice(0, 88)}
-                imageUrl={element.urlToImage}
-                newsUrl={element.url} />
+            return <div className="col md-4" key={element.url}>
+              <NewsItem title={element.title?element.title.slice(0,45):""} 
+              description={element.description?element.description.slice(0, 88):""}
+              imageUrl={element.urlToImage}
+              newsUrl={element.url} />
             </div>
           })}
 
