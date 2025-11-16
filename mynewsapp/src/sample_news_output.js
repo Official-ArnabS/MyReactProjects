@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 35,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Rolling Stone"
+      },
+      "author": "Joseph Hudak",
+      "title": "Todd Snider, Rambling Troubadour Who Helped Shape Alt-Country and Americana, Dead at 59 - Rolling Stone",
+      "description": "Todd Snider, the rambling troubadour who helped shape the Americana music movement, has died at 59.",
+      "url": "http://www.rollingstone.com/music/music-country/todd-snider-alt-country-americana-singer-dead-1235465277/",
+      "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/11/todd-snider-obit.jpg?w=1600&h=900&crop=1",
+      "publishedAt": "2025-11-15T15:38:31Z",
+      "content": "Todd Snider, a singer, songwriter, and raconteur who helped shape the alt-country and Americana music movements, died Friday. He was 59.Rolling Stone confirmed Snider’s death. No cause of death was g… [+6657 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Official Website of the Ultimate Fighting Championship"
+      },
+      "author": null,
+      "title": "UFC Tonight: Fight By Fight Preview | VeChain UFC 322: Della Maddalena vs Makhachev - UFC.com",
+      "description": "Detailing The All-Action Lineup Headed To Madison Square Garden On Saturday",
+      "url": "https://www.ufc.com/news/ufc-tonight-fight-fight-preview-vechain-ufc-322-della-maddalena-vs-makhachev",
+      "urlToImage": "https://ufc.com/images/styles/card/s3/2025-11/111025-Jack-Della-Maddalena-Islam-Makhachev-NYC-faceoff-GettyImages-2245552159.jpg?itok=WxE8He26",
+      "publishedAt": "2025-11-15T15:05:03Z",
+      "content": "You could make a case for this being the best matchup between female competitors in UFC history, both in terms of overall skills and the achievements the two women carry with them into the Octagon. T… [+1279 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Epstein files: Who else was mentioned? - BBC",
+      "description": "Michael Wolff, Larry Summers, Peter Thiel - who are some of the other names mentioned in the newly released files?",
+      "url": "https://www.bbc.com/news/articles/cn09n94qg92o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/e4fd/live/eb1cb2a0-c1a0-11f0-8669-5560f5c90fbe.jpg",
+      "publishedAt": "2025-11-15T14:23:11Z",
+      "content": "Paulin Kola and Kayla Epstein\r\nFormer Treasury Secretary Larry Summers (left), Former White House counsel Kathryn Ruemmler (centre) and journalist Michael Wolff (right) have all been named in the Eps… [+7765 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "The Associated Press",
+      "title": "Winning ticket for $980 million jackpot sold in Georgia, Mega Millions says - NBC News",
+      "description": "A Mega Millions player in Georgia won the $980 million jackpot on Friday, overcoming abysmal odds to win the huge prize",
+      "url": "https://www.nbcnews.com/news/us-news/winning-ticket-980-million-jackpot-sold-georgia-rcna244086",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-11/251115-mega-millions-ch-0917-b776f8.jpg",
+      "publishedAt": "2025-11-15T14:22:49Z",
+      "content": "A Mega Millions player in Georgia won the $980 million jackpot on Friday, overcoming abysmal odds to win the huge prize.\r\nThe numbers selected were 1, 8, 11, 12 and 57 with the gold Mega Ball 7.\r\nThe… [+1978 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Lori Aratani",
+      "title": "The shutdown is over, but the nation’s aviation problems are not. - The Washington Post",
+      "description": "The shutdown may be over, but the task of fixing deficiencies that have dogged the nation’s aviation system is far from complete.",
+      "url": "https://www.washingtonpost.com/transportation/2025/11/15/aviation-problems-post-shutdown/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WPTEPPZUVSOQK4BDU4Q7FYJHAU_size-normalized.jpg&w=1440",
+      "publishedAt": "2025-11-15T14:02:05Z",
+      "content": "Air traffic controllers are receiving at least some of their backpay. Airlines are revving up their operations to ensure they can transport the 31 million people expected to fly around the Thanksgivi… [+172 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Antonio G. Di Benedetto",
+      "title": "Framework’s franken-laptop is back with big chip upgrades and familiar frustrations - The Verge",
+      "description": "The Framework Laptop 16 finally gets its big GPU upgrade for 2025, with Nvidia RTX 5070 graphics you can install yourself. It’s quite the achievement, but other issues persist.",
+      "url": "https://www.theverge.com/tech/821420/framework-laptop-16-2025-nvidia-rtx5070-review",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/258105_Framework_Laptop_16_2025_ADiBenedetto_0034.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2025-11-15T14:00:00Z",
+      "content": "\u003Cul\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003C/ul\u003E\r\nSlapping an RTX 5070 onto your laptop is a big deal. Its other parts of the Laptop 16 that falter.\r\nIf you buy something from a Verge link, Vox Media may earn a … [+14965 chars]"
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Sara Fischer",
+      "title": "Disney, YouTube TV reach distribution deal after two-week blackout - Axios",
+      "description": "The blackout, which started October 30, cut off major sports and news programming  for more than 8 million subscribers of YouTube TV.",
+      "url": "https://www.axios.com/2025/11/15/disney-youtube-blackout-deal",
+      "urlToImage": "https://images.axios.com/YM4_gHfq-ku3e42EBAw5UldPzNQ=/1366x768/smart/2022/02/14/200749-1644869269817.jpg",
+      "publishedAt": "2025-11-15T13:57:59Z",
+      "content": "ESPN, ABC, National Geographic and more than a dozen other Disney-owned channels have been reinstated on YouTube TV after the two companies finally struck a distribution agreement. \r\nWhy it matters: … [+2438 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Matt Ehalt",
+      "title": "Seven women's basketball players ejected in wild melee as depleted West Virginia downs Duke - New York Post",
+      "description": "Losing more than half your team to an ejection can be a winning strategy apparently.",
+      "url": "https://nypost.com/2025/11/15/sports/seven-womens-basketball-players-ejected-in-wild-melee-as-depleted-west-virginia-downs-duke/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/11/newspress-collage-5byldtgd8-1763211889792.jpg?quality=75&strip=all&1763194026&w=1200",
+      "publishedAt": "2025-11-15T13:33:00Z",
+      "content": "Losing more than half your team to an ejection can be a winning strategy apparently.\r\nWest Virginia topped No. 15 Duke on Friday night after a mini-brawl at the end of the first half resulted in seve… [+1973 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "David J. Lynch",
+      "title": "Trump plays defense on tariffs as Americans face rising food prices - The Washington Post",
+      "description": "The rollback of import taxes on coffee, bananas and many other foods is the latest sign that the administration could be forced to shift course.",
+      "url": "https://www.washingtonpost.com/business/2025/11/15/trump-tariff-rollback-food-prices/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KEOIC25IZRZORN3PFHH5KC6KLE_size-normalized.JPG&w=1440",
+      "publishedAt": "2025-11-15T13:28:53Z",
+      "content": "President Donald Trumps bid Friday to sootheconsumers by dropping tariffs on a wide array of groceries, including coffee, beef, bananas and tomatoes contradicting his repeated claims that the levies … [+98 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": null,
+      "title": "Tennessee police officer working Vance motorcade in critical condition after crash - CBS News",
+      "description": "A state trooper and a Maryville Police Department motorcycle officer collided while supporting Vice President Vance's motorcade on Friday.",
+      "url": "https://www.cbsnews.com/news/vice-presidential-motorcade-crash-maryville-tennessee-jd-vance/",
+      "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/11/15/8b4de9fe-57b1-4dff-93cd-17783006d58f/thumbnail/1200x630/a62bb0a303d8551e3d708ebff17c1f6b/ap25319139497272.jpg",
+      "publishedAt": "2025-11-15T13:16:33Z",
+      "content": "Two law enforcement vehicles crashed in Tennessee on Friday night while supporting Vice President JD Vance's motorcade, sending a police officer to the hospital in critical condition, authorities sai… [+1336 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": "Kerry  Breen",
+      "title": "A mild symptom was bothering a young dad. He had Stage IV lung cancer. - CBS News",
+      "description": "Ultramarathoner and dad Kevin Humphrey never expected his minor symptoms would be a life-threatening cancer.",
+      "url": "https://www.cbsnews.com/news/ultramarathon-runner-lung-cancer-non-smoker-northwestern-medicine-michigan/",
+      "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/11/05/5b519d77-ec0f-4388-9b93-b82848550bb5/thumbnail/1200x630/187ac688cd2b211357d2081f8868f84a/img-2889.jpg",
+      "publishedAt": "2025-11-15T13:00:18Z",
+      "content": "Endurance athlete Kevin Humphrey was used to discomfort. He regularly participated in ultramarathons and other intense events. Swimming, biking and running dozens of miles at a time was standard for … [+5759 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": null,
+      "title": "Scaramuccis led $220 million investment in crypto mining firm tied to President’s family—‘Bitcoin transcends politics’ - Fortune",
+      "description": null,
+      "url": "https://fortune.com/2025/11/15/aj-scaramucci-anthony-scaramucci-solari-capital-american-bitcoin-trump-crypto-empire/",
+      "urlToImage": null,
+      "publishedAt": "2025-11-15T13:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jay Peters",
+      "title": "The Steam Machine feels like the TV gaming PC I’ve always wanted - The Verge",
+      "description": "Valve’s Steam Machine looks like it will bring the console-like PC experience I’ve wanted since getting a Steam Deck.",
+      "url": "https://www.theverge.com/games/818606/valve-steam-machine-tv-gaming-pc-wanted",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/R6WsqDDQ.jpeg?quality=90&strip=all&crop=0%2C6.8753495455066%2C100%2C86.249300908987&w=1200",
+      "publishedAt": "2025-11-15T13:00:00Z",
+      "content": "\u003Cul\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003Cli\u003E\u003C/li\u003E\u003C/ul\u003E\r\nIve been looking for a better way to play Steam games on my TV, and the Steam Machine checks all my boxes.\r\nIve been looking for a better way to play Steam games… [+5019 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Nicole Winfield",
+      "title": "Pope returns 62 artifacts to Indigenous peoples from Canada as part of reckoning with colonial past - AP News",
+      "description": "The Vatican has returned 62 artifacts to Indigenous peoples from Canada. This move is part of the Catholic Church’s effort to address its role in suppressing Indigenous culture in the Americas. On Saturday, Pope Leo XIV gave the items to a delegation from the…",
+      "url": "https://apnews.com/article/vatican-canada-indigenous-artifacts-pope-37194143ef3b0d9648dda61e44d7065a",
+      "urlToImage": "https://dims.apnews.com/dims4/default/50cf858/2147483647/strip/true/crop/2228x1253+0+116/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd6%2F71%2F6fc7575d5119e76448d9df3846f5%2F867d7c5dcb8f4f26ad38b0e67f39abad",
+      "publishedAt": "2025-11-15T12:58:00Z",
+      "content": "VATICAN CITY (AP) The Vatican on Saturday returned 62 artifacts from its vast ethnographic collection to Indigenous peoples from Canada, as part of the Catholic Churchs reckoning with its role in hel… [+6351 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "What next as Donald Trump says he will take legal action against the BBC - BBC",
+      "description": "Anyone who thought an apology to Donald Trump was going to stop his threat of a lawsuit was deluded, writes Culture and Media Editor Katie Razzall.",
+      "url": "https://www.bbc.com/news/articles/cy0yz5r8lypo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/e597/live/355d4c90-c204-11f0-8456-eff94716b162.jpg",
+      "publishedAt": "2025-11-15T12:26:07Z",
+      "content": "Katie RazzallCulture and Media Editor\r\nAnyone who thought the BBC's apology to Donald Trump was going to stop his threat of a lawsuit was, quite frankly, deluded.\r\nThe BBC chairman Samir Shah perhaps… [+3960 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": null,
+      "title": "Iran confirms seizure of oil tanker in the Strait of Hormuz - CBS News",
+      "description": "Iran has confirmed the seizure of a Marshall Islands-flagged oil tanker in the Strait of Hormuz.",
+      "url": "https://www.cbsnews.com/news/iran-confirms-tanker-seizure-strait-of-hormuz-talara/",
+      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2019/06/21/5b647698-711c-4851-bfb5-301a9d1c77e7/thumbnail/1200x630/b057587dde9220fe0bb29729b2d34f46/strait-of-hormuz-plane-ap-685252374662.jpg",
+      "publishedAt": "2025-11-15T12:21:33Z",
+      "content": "Iran on Saturday confirmed the seizure of a Marshall Islands-flagged oil tanker as it traveled through the narrow Strait of Hormuz over violations, including carrying an illegal consignment, state me… [+2732 chars]"
+    },
+    {
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+      },
+      "author": "Jacek Krywko",
+      "title": "Wyoming dinosaur mummies give us a new view of duck-billed species - Ars Technica",
+      "description": "Exquisitely preserved fossils come from a single site in Wyoming.",
+      "url": "https://arstechnica.com/science/2025/11/wyoming-dinosaur-mummies-give-us-a-new-view-of-duck-billed-species/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/Sereno-adw3536-image-3-1152x648.jpg",
+      "publishedAt": "2025-11-15T12:00:59Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Action Network"
+      },
+      "author": "Stuckey",
+      "title": "Week 12 NCAAF Picks, Predictions: Stuckey’s 4 Afternoon Spots For Nov. 15 - Action Network",
+      "description": "Read our Week 12 NCAAF picks, predictions, and Stuckey's four afternoon spots for November 15.",
+      "url": "https://www.actionnetwork.com/ncaaf/week-12-ncaaf-picks-predictions-stuckeys-4-afternoon-spots-nov-15",
+      "urlToImage": "https://images.actionnetwork.com/blog/2025/11/BELICHICK1113.jpg",
+      "publishedAt": "2025-11-15T11:46:00Z",
+      "content": "Welcome to Week 12.\r\nI don't have any Noon spots this week, but I have four spots circled in the Afternoon window.\r\nRead on for my Week 12 NCAAF Picks.\r\nMichigan State +7.5 vs. Penn State\r\n3:30 p.m. … [+12749 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vatican News"
+      },
+      "author": "Vatican News",
+      "title": "Pope: Cinema is more than a screen; it sets hope in action - Vatican News",
+      "description": "Pope Leo XIV welcomes actors, filmmakers, directors, and scriptwriters for an audience in the Vatican, and challenges them to be “witnesses of hope, beauty and truth” in our world today.",
+      "url": "https://www.vaticannews.va/en/pope/news/2025-11/pope-leo-xiv-audience-world-cinema-actors-directors.html",
+      "urlToImage": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/srv/2025/11/15/2025-11-15-incontro-con-il-mondo-del-cinema/1763203300053.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg",
+      "publishedAt": "2025-11-15T11:18:48Z",
+      "content": "By Kielce Gussie\r\nThe Vaticans Apostolic Palace was filled with actors, actresses, filmmakers, and script writers on Saturday morning as Pope Leo XIV met with members of the World of Cinema.\r\nNearly … [+4381 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Space.com"
+      },
+      "author": "Mike Wall",
+      "title": "Watch Blue Origin's huge New Glenn rocket ace its epic landing on a ship at sea (video) - Space",
+      "description": "Relive a big part of New Glenn's big day.",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/watch-blue-origins-huge-new-glenn-rocket-ace-its-epic-landing-on-a-ship-at-sea-video",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/tZTPw2bf9ppCJRkxJ7nuHU-1920-80.png",
+      "publishedAt": "2025-11-15T11:00:00Z",
+      "content": "Blue Origin's powerful New Glenn rocket had a very big day on Thursday (Nov. 13), and a new video lets us all relive part of it.\r\nNew Glenn\r\n launched for the second time ever on Thursday afternoon, … [+2395 chars]"
+    }
+  ]
+}

@@ -35,7 +35,9 @@ const News =(props)=> {
   }
 
   useEffect(() => {
+    document.title = `${capitalizeFirstLetter(props.category)} - News Momo`;
     updateNews();
+    //eslint-disable-next-line
   }, [])
   
   
@@ -59,8 +61,8 @@ const News =(props)=> {
 */
   const fetchMoreData = async () => {
     setPage(page+1)
-     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
-  
+     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page+1}&pageSize=${props.pageSize}`;
+    setPage(page+1)
     let data = await fetch(url);
     let parsedData = await data.json();
     setArticles(articles.concat(parsedData.articles));
@@ -71,7 +73,7 @@ const News =(props)=> {
   
     return (
       <div className="container my-3">
-        <h1 className='text-center' style={{ margin: '40px 0px' }}>NewsMomo - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
+        <h1 className='text-center' style={{ margin: '40px 0px', marginTop: '90px' }}>NewsMomo - Top {capitalizeFirstLetter(props.category)} Headlines</h1>
         { loading && <Spinner /> }
         <InfiniteScroll
           dataLength={articles.length}
@@ -82,7 +84,7 @@ const News =(props)=> {
           <div>
             <div className="row">
             {articles.map((element) => {
-              return <div className="col md-4" key={element.url}>
+              return <div className="col-3 md-3" key={element.url}>
                 <NewsItem title={element.title ? element.title.slice(0, 45) : ""}
                   description={element.description ? element.description.slice(0, 88) : ""}
                   imageUrl={element.urlToImage}
