@@ -16,7 +16,6 @@ import {
 const App =()=> {
   const pageSize=4;
   const apiKey=process.env.REACT_APP_API_KEY;
-  const state={progress:0};
   const [progress, setProgress] = useState(0);
 
     return (
