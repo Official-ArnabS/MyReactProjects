@@ -1,0 +1,47 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "iNotebook",
+    "collectionId": "3d77e013-df24-4d1b-921b-71b50c8a3394",
+    "dateExported": "2026-05-21T01:52:20.250Z",
+    "version": "1.4",
+    "folders": [
+        {
+            "_id": "ef753942-3923-488f-b3a7-a5766aa651f9",
+            "name": "Authentication",
+            "containerId": "",
+            "created": "2026-05-21T01:17:43.847Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "4c6e5a71-c612-4272-9246-33d20285e7ff",
+            "colId": "3d77e013-df24-4d1b-921b-71b50c8a3394",
+            "containerId": "ef753942-3923-488f-b3a7-a5766aa651f9",
+            "name": "inotebook/auth/create a new user",
+            "url": "http://localhost:5000/api/auth/createuser",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2026-05-21T01:17:00.935Z",
+            "modified": "2026-05-21T01:17:00.935Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{",
+                    "  \"name\":\"Steve6\",",
+                    "  \"email\":\"steve6.majumder@gmail.com\",",
+                    "  \"password\":\"papakajinn6\"",
+                    "}"
+                ],
+                "form": []
+            }
+        }
+    ],
+    "ref": "suMbT8tAbO0PED5eT28KiS6hgkt7o4nzhCIEP5BpyDJ6wDFy7Fh7Iy2N1EoaohdRUILV-wBAbIAcrXUXb5JUFA"
+}
