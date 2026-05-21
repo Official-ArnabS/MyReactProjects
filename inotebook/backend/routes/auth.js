@@ -4,7 +4,7 @@ const User = require('../models/User');
 const { body, validationResult } = require('express-validator');
 
 
-//Create a user using: POST "/api/auth/createuser". No login required
+//Create a user using: POST "/api/auth/createuser" from thunderclient collection. No login required
 router.post('/createuser', [
     body('email', 'Enter a valid email').isEmail(),
     body('name', 'Enter a valid name').isLength({ min: 3 }),
