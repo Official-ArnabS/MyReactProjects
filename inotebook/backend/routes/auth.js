@@ -2,7 +2,10 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/User');
 const { body, validationResult } = require('express-validator');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 
+const JWT_SECRET="ArnabIsAgoodB$oy";
 
 //Create a user using: POST "/api/auth/createuser" from thunderclient collection. No login required
 router.post('/createuser', [
@@ -23,9 +26,11 @@ router.post('/createuser', [
         if (user) {
             return res.status(400).json({ error: "Sorry a user with this email already exists" });
         }
+        const salt = await bcrypt.genSalt(10);
+        secPassword = await bcrypt.hash(req.body.password,salt);
         user = await User.create({
             name: req.body.name,
-            password: req.body.password,
+            password: secPassword,
             email: req.body.email
         })
 
@@ -34,7 +39,15 @@ router.post('/createuser', [
         //console.log(err);
         //res.json({error:'Please enter unique value for email',message:err.message})
         //});
-        res.json(user)
+        const data={
+            user:{
+                id:user.id
+            }
+        }
+        const authtoken=jwt.sign(data,JWT_SECRET);
+    
+        res.json({authtoken});
+        //res.json(user)
     } catch (error) {
         console.error(error.message);
         res.status(500).send("Some error occurred")
