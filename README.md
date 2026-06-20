@@ -12,6 +12,7 @@ Repository to save ReactJS projects for learning reference
     c)Reactjs code snippets(https://marketplace.visualstudio.com/items/?itemName=xabikos.ReactSnippets)
    
     d)Thunder client(https://marketplace.visualstudio.com/items/?itemName=rangav.vscode-thunder-client)
+    Note: Another alternative- EchoAPI https://marketplace.visualstudio.com/items?itemName=EchoAPI.echoapi-for-vscode
    
     e)ES7+ React/Redux/React-Native snippets(https://marketplace.visualstudio.com/items/?itemName=dsznajder.es7-react-js-snippets)
 
