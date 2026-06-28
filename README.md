@@ -35,7 +35,7 @@ Repository to save ReactJS projects for learning reference
    
     e)ES7+ React/Redux/React-Native snippets(https://marketplace.visualstudio.com/items/?itemName=dsznajder.es7-react-js-snippets)
 
-    Note: Mark checkbox Emmet:Show Abbreviation suggestions as checked from Settings
+Note: Mark checkbox Emmet:Show Abbreviation suggestions as checked from Settings
 
 
 # References
