@@ -27,7 +27,6 @@ Repository to save ReactJS projects for learning reference
 
 Note: Mark checkbox Emmet:Show Abbreviation suggestions as checked from Settings
 
-
 # References
 Youtube playlist: https://www.youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt
 
